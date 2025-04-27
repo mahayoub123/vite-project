@@ -1,0 +1,24 @@
+.nameStyle {
+  font-family: var(--outfit-font);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--other-text-color);
+}
+.testimonialTxtStyle {
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--other-text-color);
+}
+.testimonialContainer {
+  background-color: var(--footer-and-cards-bg-color);
+  border-radius: 12px;
+  border-width: 2px;
+  padding: 50px;
+  border: 2px solid var(--border-color);
+  margin-top: 16px;
+}
+.card {
+  width: 100%;
+}

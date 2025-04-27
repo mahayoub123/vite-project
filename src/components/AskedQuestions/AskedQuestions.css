@@ -1,0 +1,31 @@
+.questionStyle {
+  font-family: var(--outfit-font);
+  font-weight: 600;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--icons-bg-color);
+}
+.answerStyle {
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--other-text-color);
+}
+.questionContainer {
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  border-width: 2px;
+  padding: 14px;
+  width: 43%;
+  margin: 4px;
+}
+.iconContainer {
+  margin-left: 3px;
+  cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .questionContainer {
+    width: 300px;
+  }
+}

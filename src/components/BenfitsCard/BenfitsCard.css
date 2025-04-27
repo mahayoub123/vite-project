@@ -1,0 +1,41 @@
+.cardTitleStyle {
+  font-family: var(--raleway-font);
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--titles-color);
+}
+.cardTxtStyle {
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--text-color);
+}
+.CardContainer {
+  border-radius: 12px;
+  border-width: 2px;
+  border: 2px solid var(--border-color);
+  background-color: var(--footer-and-cards-bg-color);
+  padding: 80px 50px 50px 50px;
+  width: 24%;
+  margin: 25px 5px;
+  position: relative;
+}
+.CardIcon {
+  position: absolute;
+  top: -36px;
+  left: 16px;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .CardContainer {
+    width: 300px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .CardContainer {
+    width: 12%;
+    margin-left: 8px;
+    margin-top: 16px;
+  }
+}

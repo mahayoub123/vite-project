@@ -1,0 +1,24 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Fonts VArs */
+:root {
+  --outfit-font: "Outfit", sans-serif;
+  --raleway-font: "Raleway", sans-serif;
+  /* Colors */
+  --navBtn: #ffae80;
+  --nav-bg: #ff8d4d;
+  --card-btn-color: #ffdecc;
+  --titles-color: #1a1a1a;
+  --icons-bg-color: #262626;
+  --text-color: #4c4c4d;
+  --other-text-color: #333333;
+  --footer-and-cards-bg-color: #ffffff;
+  --border-color: #262626;
+  --auccordion-bg-color: #ffefe5;
+  --copy-right-color: #656567;
+}
+body {
+  background-color: var(--auccordion-bg-color);
+}

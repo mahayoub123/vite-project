@@ -1,0 +1,110 @@
+.titleStyle {
+  text-align: center;
+  font-family: var(--outfit-font);
+  font-weight: 500;
+  font-size: 20px;
+  transform: translate(15px, -34px);
+}
+.Container {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  border-width: 2px;
+  height: 20px;
+  background-image: url(../../assets/imges/Top\ Banner.png);
+}
+.logoContainer {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right-width: 2px;
+  border-left-width: 2px;
+  background-color: var(--nav-bg);
+}
+.linksContainer {
+  display: flex;
+  gap: 12px;
+  li {
+    list-style: none;
+    a {
+      text-decoration: unset;
+      color: var(--border-color);
+      font-family: var(--outfit-font);
+    }
+  }
+}
+.linksContainer ul {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linksContainer ul.open {
+  display: flex;
+  gap: 16px;
+}
+
+.navDecoration {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+.btnStyle {
+  background-color: var(--navBtn);
+  padding-top: 20px;
+  padding-right: 34px;
+  padding-bottom: 20px;
+  padding-left: 34px;
+  border-right-width: 2px;
+  margin-top: 6px;
+}
+@media (min-width: 800px) and (max-width: 1200px) {
+  .Container {
+    height: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    border-width: 2px;
+  }
+  .linksContainer li a {
+    font-size: 16px;
+  }
+  .titleStyle {
+    font-size: 16px;
+  }
+}
+@media (min-width: 300px) and (max-width: 800px) {
+  .Container {
+    height: 141px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    border-width: 2px;
+    width: 592px;
+  }
+  .linksContainer li a {
+    font-size: 20px;
+  }
+  .linksContainer ul {
+    display: none;
+  }
+
+  .linksContainer ul.open {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+  }
+  .titleStyle {
+    font-size: 29px;
+  }
+}
+@media (max-width: 768px) {
+}

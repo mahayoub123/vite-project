@@ -1,0 +1,11 @@
+.navigationContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+@media (min-width: 300px) and (max-width: 800px) {
+  .navigationContainer {
+    width: 300px;
+  }
+}
